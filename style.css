@@ -279,3 +279,38 @@
       background: #4b5563;
       border-radius: 10px;
     }
+
+    .back-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1, #3b82f6);
+  border: none;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, box-shadow 0.3s;
+  z-index: 9999; /* đảm bảo nổi trên mọi phần tử khác */
+}
+
+.back-btn:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 12px 35px rgba(99,102,241,0.6);
+}
+
+.back-btn:active {
+  transform: scale(0.95);
+}
+
+.back-btn svg {
+  width: 28px;
+  height: 28px;
+  fill: white;
+}
+
+
