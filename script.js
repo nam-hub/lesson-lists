@@ -38,11 +38,12 @@
       "https://app.lumi.education/api/v1/run/G-sfyh/embed",
       "https://app.lumi.education/api/v1/run/9vSs-O/embed",
       "https://app.lumi.education/api/v1/run/gmg1WE/embed",
-      "https://app.lumi.education/api/v1/run/OiR7qh/embed"
+      "https://app.lumi.education/api/v1/run/OiR7qh/embed",
+       "https://app.lumi.education/api/v1/run/GNWbLH/embed"
     ];
 
     // create lessons array interleaved: Bài 1, Bài kiểm tra 1, Bài 2, Bài kiểm tra 2, ...
-    for (let i = 1; i <= 20; i++) {
+    for (let i = 1; i <= 11; i++) {
       lessons.push({ type: 'lesson', title: `Bài ${i}`, idx: i });        // index 0-based position will be used in list
       lessons.push({ type: 'test', title: `Bài kiểm tra ${i}`, idx: i }); // test after each lesson
     }
@@ -1349,7 +1350,7 @@
       try {
         localStorage.setItem(key, JSON.stringify(value));
       } catch (e) {
-        console.warn('Không thể lưu vào localStorage:', e);
+        console.warn('Không thể lưu thông tin sau:', e);
         alert('Không thể lưu dữ liệu do trình duyệt hạn chế bộ nhớ.');
       }
     }
