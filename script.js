@@ -696,65 +696,65 @@
       /* Tests 11-20: lặp lại chủ đề (1-10) nhưng với câu hỏi khác (dùng mẫu) */
       /* Test 11 => topic of lesson 11 (which is copy of lesson1) */
       [
-        { q: "Thực vật CAM thích hợp sống ở môi trường nào?", options:[
-          {key:'A', text:'Môi trường khô hạn (CAM giữ CO2 ban đêm)', isCorrect:true},
-          {key:'B', text:'Môi trường nước sâu', isCorrect:false},
-          {key:'C', text:'Môi trường lạnh', isCorrect:false},
-          {key:'D', text:'Môi trường có nhiều dinh dưỡng', isCorrect:false}
+        { q: "Sinh trưởng của vi sinh vật là:", options:[
+          {key:'A', text:'Sự tăng kích thước của tế bào.', isCorrect:false},
+          {key:'B', text:'Sự tăng khối lượng tế bào.', isCorrect:false},
+          {key:'C', text:'Sự tăng số lượng tế bào trong quần thể.', isCorrect:true},
+          {key:'D', text:'Sự thay đổi hình dạng tế bào.', isCorrect:false}
         ]},
-        { q: "Cấu trúc nào giúp rễ hấp thụ nước hiệu quả hơn?", options:[
-          {key:'A', text:'Lá', isCorrect:false},
-          {key:'B', text:'Lông hút', isCorrect:true},
-          {key:'C', text:'Hoa', isCorrect:false},
-          {key:'D', text:'Mạch rây', isCorrect:false}
+        { q: "Pha sinh trưởng mà vi khuẩn thích nghi môi trường mới, chưa phân chia là:", options:[
+          {key:'A', text:'Pha cân bằng', isCorrect:false},
+          {key:'B', text:'Pha tiềm phát', isCorrect:true},
+          {key:'C', text:'Pha lũy thừa', isCorrect:false},
+          {key:'D', text:'Pha suy vong', isCorrect:false}
         ]},
-        { q: "Màng sinh chất của tế bào thực vật được cấu tạo chủ yếu từ:", options:[
-          {key:'A', text:'Phospholipid', isCorrect:true},
-          {key:'B', text:'Xenlulozơ', isCorrect:false},
-          {key:'C', text:'Peptidoglycan', isCorrect:false},
-          {key:'D', text:'Glycogen', isCorrect:false}
+        { q: "Trong pha lũy thừa, số lượng tế bào tăng theo:", options:[
+          {key:'A', text:'Tuyến tính', isCorrect:false},
+          {key:'B', text:'Cấp số nhân', isCorrect:true},
+          {key:'C', text:'Cấp số cộng', isCorrect:false},
+          {key:'D', text:'Tăng chậm rồi giảm', isCorrect:false}
         ]},
-        { q: "Thymus là gì (không thuộc thực vật, test kiến thức phân biệt)?", options:[
-          {key:'A', text:'Một cơ quan miễn dịch ở động vật', isCorrect:true},
-          {key:'B', text:'Một lá cây', isCorrect:false},
-          {key:'C', text:'Một loại nấm', isCorrect:false},
-          {key:'D', text:'Một vi khuẩn', isCorrect:false}
+        { q: "Trong pha cân bằng, tổng số tế bào không đổi vì:", options:[
+          {key:'A', text:'Vi khuẩn ngừng sinh sản', isCorrect:false},
+          {key:'B', text:'Tốc độ sinh bằng tốc độ chết', isCorrect:true},
+          {key:'C', text:'Tốc độ chết bằng 0', isCorrect:false},
+          {key:'D', text:'Tế bào nghỉ hoàn toàn', isCorrect:false}
         ]},
-        { q: "Cấy mô thực vật dùng để:", options:[
-          {key:'A', text:'Nhân giống vô tính', isCorrect:true},
-          {key:'B', text:'Tước đoạt ADN', isCorrect:false},
-          {key:'C', text:'Phân tích protein', isCorrect:false},
-          {key:'D', text:'Tăng nhiệt độ', isCorrect:false}
+        { q: "Công thức tính số tế bào sau n lần phân chia là:", options:[
+          {key:'A', text:'N=N0 +n', isCorrect:false},
+          {key:'B', text:'N=N0 x 2^n', isCorrect:true},
+          {key:'C', text:'N=N0-2^n', isCorrect:false},
+          {key:'D', text:'N=2^n', isCorrect:false}
         ]},
-        { q: "Thực vật CAM có ưu điểm là:", options:[
-          {key:'A', text:'Tiết kiệm nước bằng cách đóng stomata ban ngày', isCorrect:true},
-          {key:'B', text:'Luôn mở stomata', isCorrect:false},
-          {key:'C', text:'Không quang hợp', isCorrect:false},
-          {key:'D', text:'Chỉ sống dưới nước', isCorrect:false}
+        { q: "Thời gian thế hệ (g) được hiểu là:", options:[
+          {key:'A', text:'Thời gian để vi khuẩn thích nghi môi trường mới', isCorrect:false},
+          {key:'B', text:'Thời gian để một tế bào phân chia thành hai', isCorrect:true},
+          {key:'C', text:'Thời gian sống trung bình của tế bào', isCorrect:false},
+          {key:'D', text:'Thời gian từ pha lũy thừa đến pha cân bằng', isCorrect:false}
         ]},
-        { q: "Mô che phủ của thực vật gồm:", options:[
-          {key:'A', text:'Biểu bì, cutin', isCorrect:true},
-          {key:'B', text:'Mạch gỗ', isCorrect:false},
-          {key:'C', text:'Mô phân sinh', isCorrect:false},
-          {key:'D', text:'Rễ', isCorrect:false}
+        { q: "Pha suy vong xảy ra khi:", options:[
+          {key:'A', text:'Tốc độ sinh = tốc độ chết', isCorrect:false},
+          {key:'B', text:'Môi trường còn nhiều dinh dưỡng', isCorrect:false},
+          {key:'C', text:'Chất độc tích tụ, dinh dưỡng cạn kiệt', isCorrect:true},
+          {key:'D', text:'Vi khuẩn nhân đôi nhanh hơn bình thường', isCorrect:false}
         ]},
-        { q: "Vai trò chủ yếu của lục lạp là:", options:[
-          {key:'A', text:'Quang hợp', isCorrect:true},
-          {key:'B', text:'Hô hấp', isCorrect:false},
-          {key:'C', text:'Tổng hợp protein', isCorrect:false},
-          {key:'D', text:'Tổng hợp chất béo', isCorrect:false}
+        { q: "Pha nào là thích hợp nhất để nghiên cứu sinh lý vi khuẩn và sản xuất chế phẩm sinh học?", options:[
+          {key:'A', text:'Tiềm phát', isCorrect:false},
+          {key:'B', text:'Lũy thừa', isCorrect:true},
+          {key:'C', text:'Cân bằng', isCorrect:false},
+          {key:'D', text:'Suy vong', isCorrect:false}
         ]},
-        { q: "Ở thực vật, tế bào nào chứa nhiều chloroplast nhất?", options:[
-          {key:'A', text:'Tế bào mô xốp lá', isCorrect:true},
-          {key:'B', text:'Tế bào mạch gỗ', isCorrect:false},
-          {key:'C', text:'Tế bào biểu bì rễ', isCorrect:false},
-          {key:'D', text:'Tế bào mầm', isCorrect:false}
+        { q: "Trong công nghiệp vi sinh (như sản xuất kháng sinh), người ta thường thu hoạch sản phẩm ở pha nào của đường cong sinh trưởng?", options:[
+          {key:'A', text:'Pha tiềm phát', isCorrect:false},
+          {key:'B', text:'Pha lũy thừa', isCorrect:false},
+          {key:'C', text:'Pha cân bằng', isCorrect:true},
+          {key:'D', text:'Pha suy vong', isCorrect:false}
         ]},
-        { q: "Quá trình giãn nở tế bào thực vật chịu ảnh hưởng của:", options:[
-          {key:'A', text:'Áp suất thẩm thấu và hormone (auxin)', isCorrect:true},
-          {key:'B', text:'Số lượng lá', isCorrect:false},
-          {key:'C', text:'Màu hoa', isCorrect:false},
-          {key:'D', text:'Số hạt', isCorrect:false}
+        { q: "Nếu thời gian thế hệ của E. coli là 20 phút, sau 2 giờ số tế bào sẽ tăng lên bao nhiêu lần?", options:[
+          {key:'A', text:'8 lần', isCorrect:false},
+          {key:'B', text:'16 lần', isCorrect:false},
+          {key:'C', text:'32 lần', isCorrect:false},
+          {key:'D', text:'64 lần', isCorrect:true}
         ]}
       ],
 
