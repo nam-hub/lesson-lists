@@ -56,7 +56,24 @@
       </div>
     </div>
   </main>
+<!-- Nút quay lại -->
+<button class="back-btn" onclick="goBack()" title="Quay lại">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M20 11H8.414l4.293-4.293a1 1 0 0 0-1.414-1.414l-6 6a1 1 0 0 0 0 1.414l6 6a1 1 0 0 0 1.414-1.414L8.414 13H20a1 1 0 0 0 0-2z"/>
+  </svg>
+</button>
+
+<script>
+function goBack() {
+  if (history.length > 1) {
+    history.back();
+  } else {
+    location.href = '/';
+  }
+}
+</script>
 
 <script src="./script.js"></script>
+
 </body>
 </html>
