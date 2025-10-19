@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Học tương tác Lumi</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="menu-toggle" id="menuToggle">☰</div>
+    <div class="nav-title" id="lessonTitle">Chọn bài học</div>
+    <div class="progress-circle" id="progressCircle">
+      <svg>
+        <circle class="progress-bg" cx="30" cy="30" r="30"></circle>
+        <circle class="progress-bar" cx="30" cy="30" r="30"></circle>
+      </svg>
+      <div class="progress-text" id="progressText">0/40</div>
+    </div>
+  </nav>
+
+  <div class="sidebar" id="sidebar">
+    <h3>Danh sách bài học</h3>
+    <div id="lessonList"></div>
+  </div>
+
+  <main>
+    <iframe id="lessonFrame" src="" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts"></iframe>
+    <script src="https://app.lumi.education/api/v1/h5p/core/js/h5p-resizer.js" charset="UTF-8"></script>
+
+    <!-- QUIZ CONTAINER (shows in-page when taking test) -->
+    <div id="quizContainer" aria-hidden="true">
+      <div class="quiz-top">
+        <div id="quizTitle"><strong>Bài kiểm tra</strong></div>
+        <div>
+          <button class="btn-secondary" id="retakeBtn" style="display:none;">Làm lại</button>
+          <button class="btn-secondary" id="closeQuizBtn">Đóng bài kiểm tra</button>
+        </div>
+      </div>
+      <div id="quizQuestions"></div>
+      <div style="text-align:center;">
+        <button class="btn-secondary" id="submitQuizBtn">Nộp bài</button>
+      </div>
+      <div id="quizResult" class="result-box"></div>
+    </div>
+
+    <div class="note-section">
+      <h3>Ghi chú của bạn</h3>
+      <textarea id="noteArea" placeholder="Viết ghi chú tại đây..."></textarea>
+      <br>
+      <button class="save-btn" id="saveNote">Lưu ghi chú</button>
+      <div class="time-info" id="timeInfo"></div>
+      <div style="margin-top:8px;">
+        <button class="btn-secondary" id="startTestFromLesson" style="display:none;">Làm bài kiểm tra</button>
+      </div>
+    </div>
+  </main>
+
+<script src="./script.js"></script>
+</body>
+</html>
